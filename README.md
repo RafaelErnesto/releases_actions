@@ -1,1 +1,1 @@
-# releases_actions
+# Release workflow
