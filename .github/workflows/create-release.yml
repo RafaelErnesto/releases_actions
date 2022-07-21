@@ -1,7 +1,4 @@
 on:
-  push:
-    branches:
-      - 'main'
   workflow_dispatch:
     inputs:
       version:
@@ -32,6 +29,6 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             await github.request('POST /repos/${{github.repository}}/releases',{
-              tag_name: "v${{inputs.version}}",
+              tag_name: "${{inputs.version}}",
               generate_release_notes: true
             })
