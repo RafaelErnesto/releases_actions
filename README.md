@@ -2,7 +2,7 @@
 
 Creating releases
 
-## BUG ##
+## BUG ##  
 
 ## new feature ## 
 
