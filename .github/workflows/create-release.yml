@@ -6,6 +6,14 @@ on:
 name: Create Release
 
 jobs:
+  update-tag:
+    name: Update version tag
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Push tag
+        run: git push origin main --follow-tags
   create-github-release:
     name: Create GitHub Release
     runs-on: ubuntu-latest
@@ -13,6 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Create Release
-        run: gh release create ${{ github.ref }} --generate-notes
+        run: | 
+          gh release create ${{ github.ref }} --generate-notes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
