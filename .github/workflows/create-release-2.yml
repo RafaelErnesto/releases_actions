@@ -18,7 +18,6 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
-          github-token: ${{ secrets.CHANGELOG_RELEASE }}
           version-file: './package.json,./package-lock.json'
       - name: Create Release notes
         uses: actions/github-script@v4.0.2
