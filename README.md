@@ -1,6 +1,6 @@
 # Release workflow
 
-Creating releases
+Creating releases for POC
 
 ## BUG ##  
 
