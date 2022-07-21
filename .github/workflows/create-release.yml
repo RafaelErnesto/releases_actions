@@ -16,6 +16,7 @@ jobs:
         run: git push origin main --follow-tags
   create-github-release:
     name: Create GitHub Release
+    needs: update-tag
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
