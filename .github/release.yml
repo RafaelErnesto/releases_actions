@@ -11,8 +11,22 @@ changelog:
         - breaking-change
     - title: Exciting New Features 🎉
       labels:
-        - Minor
-        - enhancement
-    - title: Other Changes
+        - feat
+    - title: Bug fixes
       labels:
-        - "*"
+        - fix
+    - title: Refactors
+      labels:
+        - refactor
+    - title: Docs
+      labels:
+        - doc
+    - title: CI/CD
+      labels:
+        - ci
+    - title: Test
+      labels:
+        - test
+    - title: Others
+      labels:
+      - "*"
