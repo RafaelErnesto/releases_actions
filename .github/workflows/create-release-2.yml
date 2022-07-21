@@ -3,6 +3,9 @@ on:
 
 name: Create Release 2
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   install-semantic-release:
     runs-on: ubuntu-latest
