@@ -18,7 +18,7 @@ jobs:
           version-file: './package.json,./package-lock.json'
       - name: Create Release
         run: | 
-          echo -e " tag: ${{steps.changelog.outputs.tag}} "
+          echo -e " tag: ${{steps.changelog.outputs}} "
           gh release create ${{ steps.changelog.outputs.tag }} --generate-notes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
