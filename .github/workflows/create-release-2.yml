@@ -4,12 +4,10 @@ on:
 name: Create Release 2
 
 jobs:
-  create-github-release:
-    name: Create GitHub Release
+  install-semantic-release:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Release
-        uses: brpaz/action-semantic-release@v1
+      - name: Install semantic-release
+        run: npx semantic-release
         
