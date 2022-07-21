@@ -5,12 +5,11 @@ on:
         description: 'Release version'
         required: false
 
-name: Create Release
+name: Create Release 2
 
 jobs:
   create-github-release:
     name: Create GitHub Release
-    needs: update-tag
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
