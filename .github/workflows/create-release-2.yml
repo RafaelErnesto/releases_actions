@@ -14,6 +14,7 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           version-file: './package.json,./package-lock.json'
       - name: Create Release
         run: gh release create ${{ steps.changelog.outputs.tag }} --generate-notes
