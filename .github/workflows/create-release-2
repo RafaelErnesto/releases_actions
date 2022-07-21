@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version'
+        required: false
+
+name: Create Release
+
+jobs:
+  create-github-release:
+    name: Create GitHub Release
+    needs: update-tag
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3.7.1
+        with:
+          github-token: ${{ secrets.CHANGELOG_RELEASE }}
+          version-file: './package.json,./package-lock.json'
+      - name: Create Release notes
+        uses: actions/github-script@v4.0.2
+        with: 
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            await github.request('POST /repos/${{github.repository}}/releases',{
+              tag_name: "${{ steps.changelog.outputs.tag }}",
+              generate_release_notes: true
+            })
