@@ -4,6 +4,6 @@ Creating releases
 
 ## BUG ##
 
-## new feature ##
+## new feature ## 
 
 ## doc ##
