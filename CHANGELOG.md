@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [2.2.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.1.0...v2.2.0) (2022-07-21)
+
+
+### Features
+
+* new feature ([e5c1db4](https://github.com/RafaelErnesto/releases_actions/commit/e5c1db47f26e41417867e9f0730a8ad7071f2e67))
+
 # [2.1.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.0.4...v2.1.0) (2022-07-21)
 
 
