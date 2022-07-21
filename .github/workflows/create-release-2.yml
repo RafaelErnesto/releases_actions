@@ -10,16 +10,26 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
+      - name: Get Next Version
+        id: semver
+        uses: ietf-tools/semver-action@v1
+        if: ${{ !env.ACT }}
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: './package.json,./package-lock.json'
+          token: ${{ github.token }}
+          branch: main
       - name: Create Release
-        run: | 
-          echo steps.changelog.outputs | python -m json.tool
-          gh release create ${{ steps.changelog.outputs.tag }} --generate-notes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          draft: false
+          tag: ${{ steps.semver.outputs.next }}
+          name: ${{ steps.semver.outputs.next }}
+          body: ${{ steps.changelog.outputs.changes }}
+          token: ${{ github.token }}
+      - name: Commit CHANGELOG.md
+        if: ${{ !env.ACT }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: 'docs: update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
+          file_pattern: CHANGELOG.md
