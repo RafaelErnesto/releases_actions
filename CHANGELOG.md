@@ -1,5 +1,15 @@
 # Semantic Versioning Changelog
 
+# [2.0.0](https://github.com/RafaelErnesto/releases_actions/compare/v1.0.0...v2.0.0) (2022-07-21)
+
+
+* BREAKING CHANGE: this is a breaking change ([bab185f](https://github.com/RafaelErnesto/releases_actions/commit/bab185f77cf5304015ae200d48b469d84d551852))
+
+
+### BREAKING CHANGES
+
+* this is a breaking change
+
 # 1.0.0 (2022-07-21)
 
 
