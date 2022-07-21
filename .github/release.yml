@@ -23,7 +23,8 @@ changelog:
         - doc
     - title: CI/CD
       labels:
-        - ci
+        - "ci"
+        - "ci:"
     - title: Test
       labels:
         - test
