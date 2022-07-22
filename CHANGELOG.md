@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.0...v2.3.1) (2022-07-22)
+
+
+### Bug Fixes
+
+* add autorelease ([73242b7](https://github.com/RafaelErnesto/releases_actions/commit/73242b756d165167d37d4800f080ba2da1ecedcb))
+
 ## [2.3.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.2.1...v2.3.0) (2022-07-22)
 
 
