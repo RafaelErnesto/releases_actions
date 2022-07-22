@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.3](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.2...v2.3.3) (2022-07-22)
+
+
+### CI/CD
+
+* do not hide ci ([72ba298](https://github.com/RafaelErnesto/releases_actions/commit/72ba2983d1f94ec6647af34b585b4f2c5e645de5))
+* hide ci ([51177ec](https://github.com/RafaelErnesto/releases_actions/commit/51177ec49c88f2ed719406e332c9ed6540609e3a))
+
 ## [2.3.2](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.1...v2.3.2) (2022-07-22)
 
 
