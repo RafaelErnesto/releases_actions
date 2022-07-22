@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.2.0...v2.2.1) (2022-07-22)
+
+
+### Bug Fixes
+
+* add blank space ([9ab2746](https://github.com/RafaelErnesto/releases_actions/commit/9ab27460bb9d0af14023f7b5d162a004e1d81611))
+
 ## [2.2.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.1.1...v2.2.0) (2022-07-22)
 
 
