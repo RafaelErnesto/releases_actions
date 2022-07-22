@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.1.1...v2.2.0) (2022-07-22)
+
+
+### Features
+
+* remove emoji ([f7a3688](https://github.com/RafaelErnesto/releases_actions/commit/f7a3688760cedd3c92a65789f3a0900eafc849f4))
+
 ## [2.1.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.1.0...v2.1.1) (2022-07-22)
 
 
