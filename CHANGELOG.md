@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.5.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.5.0...v2.5.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* fix bugs ([6201e94](https://github.com/RafaelErnesto/releases_actions/commit/6201e94a0a8edb38abccc3e18f56ddc5e709c318))
+
+
+### Documentation
+
+* change docs ([8c6f924](https://github.com/RafaelErnesto/releases_actions/commit/8c6f924834f6fc7c32c76ddd39a46a602b0dc3ef))
+
 ## [2.5.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.4.0...v2.5.0) (2022-07-25)
 
 
