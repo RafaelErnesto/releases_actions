@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.5.2...v2.6.0) (2022-07-25)
+
+
+### Features
+
+* sdfsf ([a054c4e](https://github.com/RafaelErnesto/releases_actions/commit/a054c4ef6de5e74de3cb4af09a6abd918e7b7771))
+
 ## [2.5.2](https://github.com/RafaelErnesto/releases_actions/compare/v2.5.1...v2.5.2) (2022-07-25)
 
 
