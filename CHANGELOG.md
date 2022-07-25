@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.4](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.3...v2.3.4) (2022-07-25)
+
+
+### CI/CD
+
+* add changelog types ([78665a7](https://github.com/RafaelErnesto/releases_actions/commit/78665a7d62b74029505686a8884f9dafa5d24e4a))
+
 ## [2.3.3](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.2...v2.3.3) (2022-07-22)
 
 
