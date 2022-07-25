@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.4.0...v2.5.0) (2022-07-25)
+
+
+### Features
+
+* my new feat ([c72c64d](https://github.com/RafaelErnesto/releases_actions/commit/c72c64d5e3e82508b0940fe5eae15997da5c5033))
+
 ## [2.4.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.4...v2.4.0) (2022-07-25)
 
 
