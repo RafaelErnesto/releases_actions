@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.4.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.4...v2.4.0) (2022-07-25)
+
+
+### Features
+
+* new feat ([84faf58](https://github.com/RafaelErnesto/releases_actions/commit/84faf58ec45597561ed365289e0691bae8f85871))
+
+
+### Refactors
+
+* new refactor ([dc5c142](https://github.com/RafaelErnesto/releases_actions/commit/dc5c142bf7fb018638854b18cba629bbc61a8344))
+
+
+### CI/CD
+
+* changes on ci ([b7441a8](https://github.com/RafaelErnesto/releases_actions/commit/b7441a837fa04b170747173053c5a4f62387c028))
+
 ## [2.3.4](https://github.com/RafaelErnesto/releases_actions/compare/v2.3.3...v2.3.4) (2022-07-25)
 
 
