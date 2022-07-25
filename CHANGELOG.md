@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/RafaelErnesto/releases_actions/compare/v2.5.1...v2.5.2) (2022-07-25)
+
+
+### Refactors
+
+* r ([27a2f31](https://github.com/RafaelErnesto/releases_actions/commit/27a2f312e850cbd56b6dcba77089d807d8cf4edc))
+
 ## [2.5.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.5.0...v2.5.1) (2022-07-25)
 
 
