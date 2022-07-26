@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.0...v2.6.1) (2022-07-26)
+
+
+### CI/CD
+
+* change trigger ([86c113c](https://github.com/RafaelErnesto/releases_actions/commit/86c113c5654c222bda0b104b06557917ffd6b0a4))
+
 ## [2.6.0](https://github.com/RafaelErnesto/releases_actions/compare/v2.5.2...v2.6.0) (2022-07-25)
 
 
