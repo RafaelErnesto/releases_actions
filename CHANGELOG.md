@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.6.6](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.5...v2.6.6) (2022-07-27)
+
+
+### CI/CD
+
+* branch ([7d03a26](https://github.com/RafaelErnesto/releases_actions/commit/7d03a26b53533a31d79db40187192cd883faf862))
+* test ([c83831b](https://github.com/RafaelErnesto/releases_actions/commit/c83831bb511caac50a09981b9fcc3f16b7b84265))
+
 ## [2.6.5](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.4...v2.6.5) (2022-07-27)
 
 
