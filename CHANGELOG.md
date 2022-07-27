@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.4](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.3...v2.6.4) (2022-07-27)
+
+
+### CI/CD
+
+* remove branch from deploy ([16767f2](https://github.com/RafaelErnesto/releases_actions/commit/16767f2003863a789ad5aec206c26a8fbabc4619))
+
 ## [2.6.3](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.2...v2.6.3) (2022-07-27)
 
 
