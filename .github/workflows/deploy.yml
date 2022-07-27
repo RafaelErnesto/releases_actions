@@ -18,7 +18,10 @@ jobs:
       uses: actions/checkout@v3
     - name: List releases
       run: |
-        echo The PR was merged
-        echo "$GITHUB_CONTEXT"
+        echo releases
         gh release list
+    - name: pull request info
+      env:
+          PULL: ${{ toJson(github.event.pull_request) }}
+      run: echo "$PULL"
   
