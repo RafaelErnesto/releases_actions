@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.16](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.15...v2.6.16) (2022-07-27)
+
+
+### Tests
+
+* add test ([d5f175d](https://github.com/RafaelErnesto/releases_actions/commit/d5f175d36ad5906bdfe64be279431bbfa0305507))
+
 ## [2.6.15](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.14...v2.6.15) (2022-07-27)
 
 
