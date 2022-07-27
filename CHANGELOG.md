@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.6.2](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.1...v2.6.2) (2022-07-27)
+
+
+### CI/CD
+
+* add deploy workflow ([473f330](https://github.com/RafaelErnesto/releases_actions/commit/473f33025619b7feca504bc801472e5f2231fdfb))
+* change trigger ([dd29e82](https://github.com/RafaelErnesto/releases_actions/commit/dd29e82f12a9822b202611c74201a4b80f2a1bea))
+
 ## [2.6.1](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.0...v2.6.1) (2022-07-26)
 
 
