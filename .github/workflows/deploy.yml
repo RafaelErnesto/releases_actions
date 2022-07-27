@@ -1,0 +1,21 @@
+name: Deploy Workflow
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - "release*"
+
+jobs:
+  deploy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: List releases
+      run: |
+        echo The PR was merged
+        gh release list
+  
