@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.15](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.14...v2.6.15) (2022-07-27)
+
+
+### CI/CD
+
+* test ([b39d085](https://github.com/RafaelErnesto/releases_actions/commit/b39d08522358def8b2f35f8294a753bffeaf3b6d))
+
 ## [2.6.14](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.13...v2.6.14) (2022-07-27)
 
 
