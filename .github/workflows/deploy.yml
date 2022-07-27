@@ -22,6 +22,6 @@ jobs:
         gh release list
     - name: pull request info
       env:
-          PULL: ${{ toJson(github.event.pull_request) }}
+          PULL: ${{ toJson(github.event.pull_request.head.ref) }}
       run: echo "$PULL"
   
