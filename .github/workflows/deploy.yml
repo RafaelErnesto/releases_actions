@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    #if: github.event.pull_request.merged == true &&  contains(github.event.pull_request.head.ref,'release-please')
+    if: github.event.pull_request.merged == true &&  contains(github.event.pull_request.head.ref,'release-please')
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -19,6 +19,7 @@ jobs:
     - name: List releases
       run: |
         echo releases
-        IFS=' ' read -r -a array <<< gh release list -L 1
-        echo "${array}"
+        
+        last_release <<< echo "${gh release list -L 1}"
+        echo $last_release
    
