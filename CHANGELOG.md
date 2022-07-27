@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.3](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.2...v2.6.3) (2022-07-27)
+
+
+### CI/CD
+
+* test deploy ([baccab5](https://github.com/RafaelErnesto/releases_actions/commit/baccab5a7ee2f9496c2ad28af4e19f7a047412f7))
+
 ## [2.6.2](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.1...v2.6.2) (2022-07-27)
 
 
