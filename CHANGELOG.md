@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.6.17](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.16...v2.6.17) (2022-07-27)
+
+
+### CI/CD
+
+* list ([88f6a64](https://github.com/RafaelErnesto/releases_actions/commit/88f6a642d934b3153b76fa0d7796ec5964d80017))
+* split ([86424c2](https://github.com/RafaelErnesto/releases_actions/commit/86424c2d9814332a543bb74e9ff6075e50819ebf))
+* test ([3804995](https://github.com/RafaelErnesto/releases_actions/commit/3804995fa48d8e3cc395498752e958b9f3b397be))
+* test ([cd06a15](https://github.com/RafaelErnesto/releases_actions/commit/cd06a15033a892c26dbfccdda83a9971bec7aaa0))
+* test ([0969352](https://github.com/RafaelErnesto/releases_actions/commit/096935205f3f79934467cf1365e0b7b4c2a09d56))
+* test 4 ([feb7328](https://github.com/RafaelErnesto/releases_actions/commit/feb732846565c2f3f9341379792cc67dadd2974a))
+* test1 ([a3f3c1d](https://github.com/RafaelErnesto/releases_actions/commit/a3f3c1dbe6e9fe13a9633e17f5e232793dcb16a2))
+
 ## [2.6.16](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.15...v2.6.16) (2022-07-27)
 
 
