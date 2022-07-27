@@ -19,5 +19,7 @@ jobs:
     - name: List releases
       run: |
         echo releases
-        gh release list -L 1
+        IFS=' ' read -r -a array <<< gh release list -L 1
+        echo "${array[0]}"
+        EXPORT VERSION=${array[0]}
    
