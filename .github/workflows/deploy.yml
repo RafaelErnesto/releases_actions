@@ -10,7 +10,7 @@ on:
 
 jobs:
   deploy:
-    if: github.event.pull_request.merged == true &&  github.event.pull_request.head.ref == "**release**"
+    #if: github.event.pull_request.merged == true &&  github.event.pull_request.head.ref == "**release**"
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
