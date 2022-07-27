@@ -20,6 +20,7 @@ jobs:
       run: |
         echo releases
         
-        last_release=$(gh release list -L 1)
-        echo $last_release
+        lastRelease=$(gh release list -L 1)
+        releaseArray=(${lastRelease// / })
+        echo "${releaseArray[0]}"
    
