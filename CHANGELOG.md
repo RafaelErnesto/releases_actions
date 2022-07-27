@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.5](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.4...v2.6.5) (2022-07-27)
+
+
+### CI/CD
+
+* add env ([7d018ff](https://github.com/RafaelErnesto/releases_actions/commit/7d018ff7ef5431766c44a137be273fbc57d02b6e))
+
 ## [2.6.4](https://github.com/RafaelErnesto/releases_actions/compare/v2.6.3...v2.6.4) (2022-07-27)
 
 
