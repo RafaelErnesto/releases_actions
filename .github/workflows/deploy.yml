@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    if: github.event.pull_request.merged == true &&  contains(github.event.pull_request.head.ref,'release-please')
+    #if: github.event.pull_request.merged == true &&  contains(github.event.pull_request.head.ref,'release-please')
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -19,9 +19,5 @@ jobs:
     - name: List releases
       run: |
         echo releases
-        gh release list
-    - name: pull request info
-      env:
-          PULL: ${{ toJson(github.event.pull_request.head.ref) }}
-      run: echo "$PULL"
-  
+        gh release list -L 1
+   
