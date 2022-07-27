@@ -19,6 +19,6 @@ jobs:
     - name: List releases
       run: |
         echo The PR was merged
-        cat github.event.pull_request.head.ref
+        echo "$GITHUB_CONTEXT"
         gh release list
   
